@@ -1,25 +1,25 @@
 lockVersion: 2.0.0
 id: fc401bb0-cd17-4863-8f85-003111be4b43
 management:
-  docChecksum: 80094d79321ca2e6cbfc100b36881f64
+  docChecksum: 8e8645798aa60caf2dc7464aac8c3a18
   docVersion: 3.0.0
-  speakeasyVersion: 1.683.1
-  generationVersion: 2.792.2
-  releaseVersion: 9.2.0
-  configChecksum: 47eff6703a17e17280b578afebf4d71c
-  repoURL: https://github.com/codatio/client-sdk-typescript.git
+  speakeasyVersion: 1.685.0
+  generationVersion: 2.794.1
+  releaseVersion: 9.3.0
+  configChecksum: a0cd7fd0fbf2050490b282454b478bdd
+  repoURL: https://github.com/speakeasy-api/codatio-sdk-typescript.git
   repoSubDirectory: sync-for-payables
-  installationURL: https://gitpkg.now.sh/codatio/client-sdk-typescript/sync-for-payables
+  installationURL: https://gitpkg.now.sh/speakeasy-api/codatio-sdk-typescript/sync-for-payables
   published: true
 persistentEdits:
-  generation_id: f0a571f8-3875-4ff4-8067-839704e0edd3
-  pristine_commit_hash: 40acec8afb75b38fa2fc2012b7deff7ba1cd9b8d
-  pristine_tree_hash: a9c3caf6ab9019c3649b7c4287157f72e29c6426
+  generation_id: e59378e5-7714-48e8-8ec3-4089757f9136
+  pristine_commit_hash: 5f129cba1745e831166ccc86fff7bfbab77234e0
+  pristine_tree_hash: f2046f9db2cc2a7fdad32b2b507df70cd0e3dbbc
 features:
   typescript:
     additionalDependencies: 0.1.0
     constsAndDefaults: 0.1.12
-    core: 3.26.19
+    core: 3.26.20
     decimal: 0.1.2
     defaultEnabledRetries: 0.1.0
     downloadStreams: 0.1.1
@@ -38,6 +38,7 @@ features:
     sdkHooks: 0.4.0
     serverEventsSentinels: 0.1.0
     uploadStreams: 0.1.0
+    webhookHandlers: 0.1.0
     webhooks: 1.5.1
 trackedFiles:
   .gitattributes:
@@ -218,8 +219,8 @@ trackedFiles:
     pristine_git_object: 70e4050070a5f8a69e5e4627dc7d9f2a3d951ec3
   docs/sdk/models/shared/billlineitem.md:
     id: 94d76eb3ef39
-    last_write_checksum: sha1:7075b08200049ef506166e42b6ac5396fbf38cef
-    pristine_git_object: 8d828a732ff65098fc46ceff5799c40d1c2207bd
+    last_write_checksum: sha1:f123ff29c9e5ed1070e72b2459e9b8af944d7797
+    pristine_git_object: c43c05326afb40ffb03966d044897c101abf14ef
   docs/sdk/models/shared/billmappingoptions.md:
     id: 1857da742ed9
     last_write_checksum: sha1:0cce57a6fa60a2b9117fdabe60b21d4fe3d10cdb
@@ -242,8 +243,8 @@ trackedFiles:
     pristine_git_object: 3227186133f744eb9041599fc1b2570315212228
   docs/sdk/models/shared/bills.md:
     id: 9f0e932f8fb7
-    last_write_checksum: sha1:aba6b2c049b0f164acec8dfd955905a06571bfb0
-    pristine_git_object: 317958c74c4cb52ede39b86a17df862fb36679ed
+    last_write_checksum: sha1:470acc13aa53f48f051b2cc38c206c32cfd97eac
+    pristine_git_object: f93f53e5e83326668ae85b093eeee09cacb05e91
   docs/sdk/models/shared/billstatus.md:
     id: b9f63ac7e29b
     last_write_checksum: sha1:c3cd6e156074781d1ba99cc926d347a3e1fadfa1
@@ -430,12 +431,12 @@ trackedFiles:
     pristine_git_object: 978c98ebda9a2b1f9ea0961b7a06643f604d1d24
   jsr.json:
     id: 7f6ab7767282
-    last_write_checksum: sha1:7e428d16b98cc823067d02faf758b15542fad2a3
-    pristine_git_object: a3b100df62e435455456dfe9a06f7017184aff5e
+    last_write_checksum: sha1:c6b3f0829d9e0c044498adbd9a6f5a4b79beeb06
+    pristine_git_object: 0cb5b5775a7680695fc5d2c1ee7a137c8274980d
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:3da0d5028ebe8afcfe3e08de0090701fd20e4d5a
-    pristine_git_object: aa0fea63a788d20dd23bf2cef18c7284ce7883b4
+    last_write_checksum: sha1:f7f167a13fe153ee23b8a827c7186dec5443a66b
+    pristine_git_object: 35778f7bee49538a3832c286648df1aab3b4632b
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:8ac194d8a86c95d66ff881034c874004f103d6e8
@@ -558,8 +559,8 @@ trackedFiles:
     pristine_git_object: 0aebd8b0a4867e35cb3348fc52921c3c0b4725b7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:6e7025631d380b68e03277e65054cb711ac2c5bf
-    pristine_git_object: 24d5a0cf094254fc274205c384958f10c8b313f2
+    last_write_checksum: sha1:2c3d6d85cf36d66cdedd21bd6eb5b8f14d13eb52
+    pristine_git_object: 57045b71a97c5164bd513745edcf8cd472afd68b
   src/lib/dlv.ts:
     id: b1988214835a
     last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
@@ -602,8 +603,8 @@ trackedFiles:
     pristine_git_object: dc2510e330727b01894e4d3954ea92a62c962e5d
   src/lib/sdks.ts:
     id: 8a6d91f1218d
-    last_write_checksum: sha1:faf3ab84ae7a0104c0c43c6accd3e081cf33d191
-    pristine_git_object: b1d7b5c0743b08f4248bdc0e0b84ec4d0617dffb
+    last_write_checksum: sha1:18da4753f916af929ae4a2445b13b09c23e1cc6f
+    pristine_git_object: 126029ae98e4c0ceb16ccfa40f8dd82890dd3193
   src/lib/security.ts:
     id: 0502afa7922e
     last_write_checksum: sha1:c04a467e412cdd09a03239de17aa7d6a9afc246e
@@ -814,8 +815,8 @@ trackedFiles:
     pristine_git_object: 592626318ad12e8897ebc23346353b75ee7b82ac
   src/sdk/models/shared/billlineitem.ts:
     id: b895a9163af6
-    last_write_checksum: sha1:645377d23efb76df01693205b8cc43dfdea2b49b
-    pristine_git_object: 4a8c9d46fe4348940b99c5e0918820cd8b27443a
+    last_write_checksum: sha1:61a8bc8655abd39f6d3388adac60c0288835b30a
+    pristine_git_object: 584f78800d7aaa6f90aa9bb88f8f02976c5d7a95
   src/sdk/models/shared/billmappingoptions.ts:
     id: 461ea9a57de9
     last_write_checksum: sha1:0699ad1573a0910f4e2cf60d4a244100a798cc9b
@@ -1865,7 +1866,6 @@ examples:
           application/json: {"statusCode": 400, "service": "PublicApi", "error": "Error processing request - not valid.", "correlationId": "bc997528a9d7abb9161ef45f05d38599", "canBeRetried": "Unknown", "detailedErrorCode": 0}
 examplesVersion: 1.0.2
 generatedTests: {}
-releaseNotes: "## Typescript SDK Changes:\n* `codatsyncpayables.bills.list()`:  `response.results.[].lineItems.[]` **Changed**\n* `codatsyncpayables.bills.create()`: \n  *  `request.billPrototype.lineItems.[]` **Changed**\n  *  `response.lineitems.[]` **Changed**\n"
 generatedFiles:
   - .gitattributes
   - .npmignore
