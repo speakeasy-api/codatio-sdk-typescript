@@ -171,7 +171,7 @@ workflow:
                 - location: https://raw.githubusercontent.com/codatio/oas/main/yaml/Codat-Sync-Expenses-v1.yaml
         sync-for-payables-source:
             inputs:
-                - location: yaml/Codat-Sync-Payables.yaml
+                - location: https://raw.githubusercontent.com/codatio/oas/main/yaml/Codat-Sync-Payables.yaml
             registry:
                 location: registry.speakeasyapi.dev/codat/codat/sync-for-payables-source
         sync-for-payables-version-1-source:
