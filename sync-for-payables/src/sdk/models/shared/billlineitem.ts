@@ -34,11 +34,11 @@ export type BillLineItem = {
   /**
    * Unit price of the goods or service.
    */
-  unitAmount?: Decimal$ | number | undefined;
+  unitAmount: Decimal$ | number;
   /**
    * Number of units of goods or services received.
    */
-  quantity?: Decimal$ | number | undefined;
+  quantity: Decimal$ | number;
   /**
    * Amount of tax applied to the line item.
    */
@@ -46,7 +46,7 @@ export type BillLineItem = {
   /**
    * Reference to the account to which the line item is linked.
    */
-  accountRef?: BillAccountRef | undefined;
+  accountRef: BillAccountRef;
   /**
    * Total amount of the line, including tax.
    */
@@ -65,10 +65,10 @@ export const BillLineItem$inboundSchema: z.ZodType<
   unknown
 > = z.object({
   description: z.nullable(z.string()).optional(),
-  unitAmount: z.number().transform(v => new Decimal$(v)).optional(),
-  quantity: z.number().transform(v => new Decimal$(v)).optional(),
+  unitAmount: z.number().transform(v => new Decimal$(v)),
+  quantity: z.number().transform(v => new Decimal$(v)),
   taxAmount: z.number().transform(v => new Decimal$(v)).optional(),
-  accountRef: BillAccountRef$inboundSchema.optional(),
+  accountRef: BillAccountRef$inboundSchema,
   totalAmount: z.nullable(z.number().transform(v => new Decimal$(v)))
     .optional(),
   taxRateRef: BillTaxRateRef$inboundSchema.optional(),
@@ -77,10 +77,10 @@ export const BillLineItem$inboundSchema: z.ZodType<
 /** @internal */
 export type BillLineItem$Outbound = {
   description?: string | null | undefined;
-  unitAmount?: number | undefined;
-  quantity?: number | undefined;
+  unitAmount: number;
+  quantity: number;
   taxAmount?: number | undefined;
-  accountRef?: BillAccountRef$Outbound | undefined;
+  accountRef: BillAccountRef$Outbound;
   totalAmount?: number | null | undefined;
   taxRateRef?: BillTaxRateRef$Outbound | undefined;
   trackingRefs?: Array<TrackingRef$Outbound> | null | undefined;
@@ -95,14 +95,14 @@ export const BillLineItem$outboundSchema: z.ZodType<
   description: z.nullable(z.string()).optional(),
   unitAmount: z.union([z.instanceof(Decimal$), z.number()]).transform(v =>
     typeof v === "number" ? v : v.toNumber()
-  ).optional(),
+  ),
   quantity: z.union([z.instanceof(Decimal$), z.number()]).transform(v =>
     typeof v === "number" ? v : v.toNumber()
-  ).optional(),
+  ),
   taxAmount: z.union([z.instanceof(Decimal$), z.number()]).transform(v =>
     typeof v === "number" ? v : v.toNumber()
   ).optional(),
-  accountRef: BillAccountRef$outboundSchema.optional(),
+  accountRef: BillAccountRef$outboundSchema,
   totalAmount: z.nullable(
     z.union([z.instanceof(Decimal$), z.number()]).transform(v =>
       typeof v === "number" ? v : v.toNumber()
