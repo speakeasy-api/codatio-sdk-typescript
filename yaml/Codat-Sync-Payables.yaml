@@ -2056,10 +2056,10 @@ components:
         billLineItem:
           title: Bill line item
           type: object
-          required:
-            - quantity
-            - unitAmount
-            - accountRef
+          # required:
+          #   - quantity
+          #   - unitAmount
+          #   - accountRef
           properties:
             description:
               type: string
