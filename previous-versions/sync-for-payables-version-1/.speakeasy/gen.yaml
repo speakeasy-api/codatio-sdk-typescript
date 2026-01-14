@@ -20,14 +20,14 @@ generation:
   schemas:
     allOfMergeStrategy: shallowMerge
   requestBodyFieldName: ""
+  persistentEdits: {}
   tests:
     generateTests: true
     generateNewTests: false
     skipResponseBodyAssertions: false
-  persistentEdits: {}
   telemetryEnabled: true
 typescript:
-  version: 2.4.0
+  version: 2.5.0
   acceptHeaderEnum: true
   additionalDependencies:
     dependencies: {}

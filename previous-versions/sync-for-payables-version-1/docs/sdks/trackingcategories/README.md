@@ -1,5 +1,4 @@
 # TrackingCategories
-(*trackingCategories*)
 
 ## Overview
 

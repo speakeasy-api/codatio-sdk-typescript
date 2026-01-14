@@ -130,19 +130,19 @@ run();
 <details open>
 <summary>Available methods</summary>
 
-### [accounts](docs/sdks/accounts/README.md)
+### [Accounts](docs/sdks/accounts/README.md)
 
 * [list](docs/sdks/accounts/README.md#list) - List accounts
 * [get](docs/sdks/accounts/README.md#get) - Get account
 * [getCreateModel](docs/sdks/accounts/README.md#getcreatemodel) - Get create account model
 * [create](docs/sdks/accounts/README.md#create) - Create account
 
-### [bankAccounts](docs/sdks/bankaccounts/README.md)
+### [BankAccounts](docs/sdks/bankaccounts/README.md)
 
 * [getCreateModel](docs/sdks/bankaccounts/README.md#getcreatemodel) - Get create/update bank account model
 * [create](docs/sdks/bankaccounts/README.md#create) - Create bank account
 
-### [billCreditNotes](docs/sdks/billcreditnotes/README.md)
+### [BillCreditNotes](docs/sdks/billcreditnotes/README.md)
 
 * [list](docs/sdks/billcreditnotes/README.md#list) - List bill credit notes
 * [get](docs/sdks/billcreditnotes/README.md#get) - Get bill credit note
@@ -150,7 +150,7 @@ run();
 * [create](docs/sdks/billcreditnotes/README.md#create) - Create bill credit note
 * [update](docs/sdks/billcreditnotes/README.md#update) - Update bill credit note
 
-### [billPayments](docs/sdks/billpayments/README.md)
+### [BillPayments](docs/sdks/billpayments/README.md)
 
 * [list](docs/sdks/billpayments/README.md#list) - List bill payments
 * [get](docs/sdks/billpayments/README.md#get) - Get bill payment
@@ -158,7 +158,7 @@ run();
 * [getCreateModel](docs/sdks/billpayments/README.md#getcreatemodel) - Get create bill payment model
 * [create](docs/sdks/billpayments/README.md#create) - Create bill payments
 
-### [bills](docs/sdks/bills/README.md)
+### [Bills](docs/sdks/bills/README.md)
 
 * [list](docs/sdks/bills/README.md#list) - List bills
 * [get](docs/sdks/bills/README.md#get) - Get bill
@@ -172,7 +172,7 @@ run();
 * [downloadAttachment](docs/sdks/bills/README.md#downloadattachment) - Download bill attachment
 * [uploadAttachment](docs/sdks/bills/README.md#uploadattachment) - Upload bill attachment
 
-### [companies](docs/sdks/companies/README.md)
+### [Companies](docs/sdks/companies/README.md)
 
 * [list](docs/sdks/companies/README.md#list) - List companies
 * [create](docs/sdks/companies/README.md#create) - Create company
@@ -181,11 +181,11 @@ run();
 * [delete](docs/sdks/companies/README.md#delete) - Delete a company
 * [get](docs/sdks/companies/README.md#get) - Get company
 
-### [companyInfo](docs/sdks/companyinfo/README.md)
+### [CompanyInfo](docs/sdks/companyinfo/README.md)
 
 * [getAccountingProfile](docs/sdks/companyinfo/README.md#getaccountingprofile) - Get company accounting profile
 
-### [connections](docs/sdks/connections/README.md)
+### [Connections](docs/sdks/connections/README.md)
 
 * [list](docs/sdks/connections/README.md#list) - List connections
 * [create](docs/sdks/connections/README.md#create) - Create connection
@@ -193,19 +193,19 @@ run();
 * [delete](docs/sdks/connections/README.md#delete) - Delete connection
 * [unlink](docs/sdks/connections/README.md#unlink) - Unlink connection
 
-### [journalEntries](docs/sdks/journalentries/README.md)
+### [JournalEntries](docs/sdks/journalentries/README.md)
 
 * [getCreateModel](docs/sdks/journalentries/README.md#getcreatemodel) - Get create journal entry model
 * [create](docs/sdks/journalentries/README.md#create) - Create journal entry
 
-### [journals](docs/sdks/journals/README.md)
+### [Journals](docs/sdks/journals/README.md)
 
 * [list](docs/sdks/journals/README.md#list) - List journals
 * [get](docs/sdks/journals/README.md#get) - Get journal
 * [getCreateModel](docs/sdks/journals/README.md#getcreatemodel) - Get create journal model
 * [create](docs/sdks/journals/README.md#create) - Create journal
 
-### [manageData](docs/sdks/managedata/README.md)
+### [ManageData](docs/sdks/managedata/README.md)
 
 * [refreshAllDataTypes](docs/sdks/managedata/README.md#refreshalldatatypes) - Refresh all data
 * [get](docs/sdks/managedata/README.md#get) - Get data status
@@ -213,17 +213,17 @@ run();
 * [listPullOperations](docs/sdks/managedata/README.md#listpulloperations) - List pull operations
 * [getPullOperation](docs/sdks/managedata/README.md#getpulloperation) - Get pull operation
 
-### [paymentMethods](docs/sdks/paymentmethods/README.md)
+### [PaymentMethods](docs/sdks/paymentmethods/README.md)
 
 * [list](docs/sdks/paymentmethods/README.md#list) - List payment methods
 * [get](docs/sdks/paymentmethods/README.md#get) - Get payment method
 
-### [pushOperations](docs/sdks/pushoperations/README.md)
+### [PushOperations](docs/sdks/pushoperations/README.md)
 
 * [list](docs/sdks/pushoperations/README.md#list) - List push operations
 * [get](docs/sdks/pushoperations/README.md#get) - Get push operation
 
-### [suppliers](docs/sdks/suppliers/README.md)
+### [Suppliers](docs/sdks/suppliers/README.md)
 
 * [list](docs/sdks/suppliers/README.md#list) - List suppliers
 * [get](docs/sdks/suppliers/README.md#get) - Get supplier
@@ -231,12 +231,12 @@ run();
 * [create](docs/sdks/suppliers/README.md#create) - Create supplier
 * [update](docs/sdks/suppliers/README.md#update) - Update supplier
 
-### [taxRates](docs/sdks/taxrates/README.md)
+### [TaxRates](docs/sdks/taxrates/README.md)
 
 * [list](docs/sdks/taxrates/README.md#list) - List all tax rates
 * [get](docs/sdks/taxrates/README.md#get) - Get tax rate
 
-### [trackingCategories](docs/sdks/trackingcategories/README.md)
+### [TrackingCategories](docs/sdks/trackingcategories/README.md)
 
 * [list](docs/sdks/trackingcategories/README.md#list) - List tracking categories
 * [get](docs/sdks/trackingcategories/README.md#get) - Get tracking categories
