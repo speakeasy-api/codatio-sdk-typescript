@@ -1,6 +1,6 @@
 {
   "name": "@codat/sync-for-payables",
-  "version": "9.3.3",
+  "version": "9.3.4",
   "author": "Codat",
   "main": "./index.js",
   "sideEffects": false,
