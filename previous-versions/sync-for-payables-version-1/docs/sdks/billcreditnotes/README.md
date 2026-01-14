@@ -1,5 +1,4 @@
 # BillCreditNotes
-(*billCreditNotes*)
 
 ## Overview
 

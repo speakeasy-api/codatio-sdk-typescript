@@ -1,5 +1,4 @@
 # ManageData
-(*manageData*)
 
 ## Overview
 
