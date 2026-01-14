@@ -1,20 +1,20 @@
 lockVersion: 2.0.0
 id: fc401bb0-cd17-4863-8f85-003111be4b43
 management:
-  docChecksum: a5a6b29c932401b54fefc48cb0e59b5f
+  docChecksum: 80094d79321ca2e6cbfc100b36881f64
   docVersion: 3.0.0
   speakeasyVersion: 1.685.0
   generationVersion: 2.794.1
-  releaseVersion: 9.3.2
-  configChecksum: 442c50c10e0b4842bba4647fa117231c
+  releaseVersion: 9.3.3
+  configChecksum: 315fed7e219cec41f6212e48abda9dca
   repoURL: https://github.com/speakeasy-api/codatio-sdk-typescript.git
   repoSubDirectory: sync-for-payables
   installationURL: https://gitpkg.now.sh/speakeasy-api/codatio-sdk-typescript/sync-for-payables
   published: true
 persistentEdits:
-  generation_id: ce155df1-3c41-416b-b8d8-758ff3ff7b18
-  pristine_commit_hash: c48cd86717b247eb69a560bd67ff863044fe42fa
-  pristine_tree_hash: 6381a5567b89636299309af49c8a4b88c36fb8e8
+  generation_id: a28fa3b8-54ce-43b7-b37a-311c51936506
+  pristine_commit_hash: 309d486f888ec9b495ebc3a19ea858285a87f1b3
+  pristine_tree_hash: b2345cc8fea505d5f8ea0f1f39ca88ef4d5a8736
 features:
   typescript:
     additionalDependencies: 0.1.0
@@ -219,8 +219,8 @@ trackedFiles:
     pristine_git_object: 70e4050070a5f8a69e5e4627dc7d9f2a3d951ec3
   docs/sdk/models/shared/billlineitem.md:
     id: 94d76eb3ef39
-    last_write_checksum: sha1:f123ff29c9e5ed1070e72b2459e9b8af944d7797
-    pristine_git_object: c43c05326afb40ffb03966d044897c101abf14ef
+    last_write_checksum: sha1:7075b08200049ef506166e42b6ac5396fbf38cef
+    pristine_git_object: 8d828a732ff65098fc46ceff5799c40d1c2207bd
   docs/sdk/models/shared/billmappingoptions.md:
     id: 1857da742ed9
     last_write_checksum: sha1:0cce57a6fa60a2b9117fdabe60b21d4fe3d10cdb
@@ -243,8 +243,8 @@ trackedFiles:
     pristine_git_object: 3227186133f744eb9041599fc1b2570315212228
   docs/sdk/models/shared/bills.md:
     id: 9f0e932f8fb7
-    last_write_checksum: sha1:470acc13aa53f48f051b2cc38c206c32cfd97eac
-    pristine_git_object: f93f53e5e83326668ae85b093eeee09cacb05e91
+    last_write_checksum: sha1:aba6b2c049b0f164acec8dfd955905a06571bfb0
+    pristine_git_object: 317958c74c4cb52ede39b86a17df862fb36679ed
   docs/sdk/models/shared/billstatus.md:
     id: b9f63ac7e29b
     last_write_checksum: sha1:c3cd6e156074781d1ba99cc926d347a3e1fadfa1
@@ -431,12 +431,12 @@ trackedFiles:
     pristine_git_object: 978c98ebda9a2b1f9ea0961b7a06643f604d1d24
   jsr.json:
     id: 7f6ab7767282
-    last_write_checksum: sha1:cec6d55ce881ec20a25e384e8f9a72644101300c
-    pristine_git_object: b2c9844eeec3006aa3a25847e3aa5cbbb249de43
+    last_write_checksum: sha1:bc99ab6dcc786780761cc95cc2d2582eaddecf5b
+    pristine_git_object: 87e0cee717fb31cb5780a7a70dc3bf5b482413e5
   package.json:
     id: 7030d0b2f71b
-    last_write_checksum: sha1:ac47412a42880f4c59b059be1934eb1a81bba0d4
-    pristine_git_object: b0c8816a4f4e2cf6a77ae2553e58b47fab17d8f6
+    last_write_checksum: sha1:b4d3d641fab96ebc43cf4fd6176e7663c43c45ef
+    pristine_git_object: 1561be63a005b77b21d5113e4a3c2e820f94554c
   src/core.ts:
     id: f431fdbcd144
     last_write_checksum: sha1:8ac194d8a86c95d66ff881034c874004f103d6e8
@@ -559,8 +559,8 @@ trackedFiles:
     pristine_git_object: 0aebd8b0a4867e35cb3348fc52921c3c0b4725b7
   src/lib/config.ts:
     id: 320761608fb3
-    last_write_checksum: sha1:211918f7bf78357cdc729a999467f9c495634b94
-    pristine_git_object: e97e2816ee6e378ef7077dd4f93e497dd741dce7
+    last_write_checksum: sha1:9bbbdf6ad740e88db8b3bfff877f0fce1d1fad1f
+    pristine_git_object: ec643c68b72d8ee1921db431377906e9a23a3a00
   src/lib/dlv.ts:
     id: b1988214835a
     last_write_checksum: sha1:1dd3e3fbb4550c4bf31f5ef997faff355d6f3250
@@ -815,8 +815,8 @@ trackedFiles:
     pristine_git_object: 592626318ad12e8897ebc23346353b75ee7b82ac
   src/sdk/models/shared/billlineitem.ts:
     id: b895a9163af6
-    last_write_checksum: sha1:61a8bc8655abd39f6d3388adac60c0288835b30a
-    pristine_git_object: 584f78800d7aaa6f90aa9bb88f8f02976c5d7a95
+    last_write_checksum: sha1:645377d23efb76df01693205b8cc43dfdea2b49b
+    pristine_git_object: 4a8c9d46fe4348940b99c5e0918820cd8b27443a
   src/sdk/models/shared/billmappingoptions.ts:
     id: 461ea9a57de9
     last_write_checksum: sha1:0699ad1573a0910f4e2cf60d4a244100a798cc9b
